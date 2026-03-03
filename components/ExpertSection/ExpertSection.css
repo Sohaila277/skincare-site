@@ -112,24 +112,16 @@
   opacity: 1;
 }
 
-/* Mobile Responsiveness */
+
 @media (max-width: 992px) {
-  .expert-container {
-    flex-direction: column;
+  .grid-container-class { 
+    grid-template-columns: repeat(2, 1fr) !important; 
   }
-  
-  .expert-image-wrapper {
-    transform: translateX(0);
-    margin-bottom: -50px; 
-    width: 90%;
-  }
-  
-  .expert-content-box {
-    padding: 80px 40px 40px 40px;
-    width: 100%;
-  }
-  
-  .expert-main-title {
-    font-size: 24px;
+}
+
+@media (max-width: 600px) {
+  .grid-container-class { 
+    grid-template-columns: 1fr !important; 
+    padding: 20px;
   }
 }

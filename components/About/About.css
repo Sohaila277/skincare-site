@@ -107,3 +107,54 @@ font-weight:600;
 cursor:pointer;
 
 }
+
+/* --- RESPONSIVE ABOUT SECTION --- */
+
+@media (max-width: 1024px) {
+  .about {
+    gap: 80px; 
+    padding: 60px 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column; 
+    gap: 50px;
+    text-align: center; 
+    padding: 50px 20px;
+  }
+
+  .about-images {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .main-img {
+   
+    width: 80vw; 
+    height: auto; 
+    max-width: 350px;
+    border-radius: 150px; 
+  }
+
+  .small-img {
+    width: 120px;
+    height: 120px;
+    bottom: -10px;
+    left: 10%; 
+  }
+
+  .about-text {
+    max-width: 100%; 
+  }
+
+  .about-text h2 {
+    font-size: 28px; 
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+}

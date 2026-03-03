@@ -55,3 +55,52 @@ html {
   color: #caa49a;
   transform: scale(1.1);
 }
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #4a3d38;
+  margin-left: 15px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block; 
+    z-index: 1001;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -100%; 
+    width: 70%;
+    height: 100vh;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+    box-shadow: -10px 0 30px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+
+  
+  .menu.active {
+    right: 0; 
+  }
+
+  .menu li {
+    margin: 20px 0;
+  }
+
+  .menu li a {
+    font-size: 18px; 
+  }
+}

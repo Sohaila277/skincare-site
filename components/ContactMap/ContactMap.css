@@ -91,3 +91,18 @@
   transform: translateY(-2px);
   color: white;
 }
+
+@media (max-width: 600px) {
+  .map-section {
+    height: 500px; 
+  }
+
+  .contact-overlay {
+    padding: 30px 20px; 
+    width: 95%;
+  }
+
+  .brand-name {
+    font-size: 20px; 
+  }
+}
