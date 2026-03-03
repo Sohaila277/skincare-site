@@ -1,0 +1,135 @@
+
+
+.expert-section {
+  padding: 100px 5%; 
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.expert-main-title {
+  font-size: 32px;
+  color: #4a3d38;
+  margin-bottom: 60px;
+  line-height: 1.3;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.expert-container {
+  display: flex;
+  align-items: flex-start; 
+  justify-content: center;
+  max-width: 1300px; 
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Left Side */
+.expert-image-wrapper {
+  flex: 1;
+  z-index: 2;
+  
+}
+
+.expert-main-img {
+  width: 100%;
+  max-width: 650px;
+  display: block;
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+
+.expert-content-box {
+  flex: 1.8; 
+  background-color: #f9f1f0; 
+  padding: 100px 80px 100px 200px;   
+  text-align: left;
+  z-index: 1;
+  margin-top: 50px; 
+  margin-left: -290px;  
+  border-radius: 4px;
+  position: relative;
+}
+
+.expert-icon {
+  width: 70px;
+  height: auto;
+  margin-bottom: 25px;
+  margin-left: 180px;
+  filter: sepia(0.3) saturate(1.2) hue-rotate(330deg) brightness(0.8);
+}
+
+.expert-content-box h3 {
+  font-size: 34px;
+  color: #4a3d38;
+  margin-bottom: 25px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-left: 180px;
+  max-width: 600px;
+}
+
+.expert-content-box p {
+  color: #6b5d57;
+  line-height: 1.8;
+  margin-bottom: 35px;
+  font-size: 18px;
+  margin-left: 180px;
+  max-width: 600px;
+}
+
+.view-more-btn {
+  background-color: #caa49a;
+  color: #ffffff;
+  border: none;
+  padding: 15px 45px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 180px;
+}
+
+.view-more-btn:hover {
+  background-color: #b89389;
+  transform: translateY(-2px);
+}
+
+.icon-attribution {
+  margin-top: 20px;
+}
+
+.icon-attribution a {
+  font-size: 11px;
+  color: #caa49a;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.icon-attribution a:hover {
+  opacity: 1;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 992px) {
+  .expert-container {
+    flex-direction: column;
+  }
+  
+  .expert-image-wrapper {
+    transform: translateX(0);
+    margin-bottom: -50px; 
+    width: 90%;
+  }
+  
+  .expert-content-box {
+    padding: 80px 40px 40px 40px;
+    width: 100%;
+  }
+  
+  .expert-main-title {
+    font-size: 24px;
+  }
+}
