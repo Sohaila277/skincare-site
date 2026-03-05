@@ -28,9 +28,9 @@ from 100% organic.
 </p>
 
 <p>
-Diam volutpat commodo sed egestas. Nisi quis eleifend quam
-adipiscing vitae proin sagittis nisl. Nulla malesuada pellentesque
-elit eget gravida cum sociis natoque penatibus.
+Our mission is simple: to help you achieve that coveted, luminous glow 
+  without harsh chemicals or synthetic fillers. We believe that what you 
+  put on your body is just as important as what you put in it.
 </p>
 
 <button className="about-btn">

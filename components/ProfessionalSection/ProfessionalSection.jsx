@@ -15,10 +15,10 @@ const ProfessionalSection = () => {
             Speak to a professional <br /> without the in person
           </h2>
           <p className="prof-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore magn. Diam volutpat com sed
-            egestas. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl.
-            Nulla malesuada pellentes elit eget.
+            Skip the waiting room and get expert advice from the comfort of your home. 
+            Our skincare specialists are available for virtual consultations to help 
+            identify your skin type and recommend the perfect organic regimen. 
+            Professional beauty care is now just a click away.
           </p>
           <button className="view-more-btn">VIEW MORE</button>
         </div>

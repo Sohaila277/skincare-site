@@ -21,10 +21,11 @@ const ExpertSection = () => {
           <img src={iconImg} alt="icon" className="expert-icon" />
           <h3>Only pay if your condition improves after treatment</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore magn. Diam volutpat com sed
-            egestas. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl.
-            Nulla malesuada pellentes elit eget.
+            We believe so deeply in the power of our organic formulas that we prioritize 
+            your results above all else. Our goal is to transform your skin through 
+            natural healing and consistent care. If our personalized treatment plan 
+            doesn't bring a visible change to your skin's health, we'll work with you 
+            until it does.
           </p>
           <button className="view-more-btn">VIEW MORE</button>
         </div>

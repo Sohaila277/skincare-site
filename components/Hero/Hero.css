@@ -145,11 +145,22 @@ color:#999;
     width: 100%;            
     max-width: 350px;       
     padding: 4px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    background: white;
   }
 
   .hero-input input {
-    padding: 12px 15px;     
+    flex: 1;
+    min-width: 0;
+    padding: 10px 15px;     
     font-size: 13px;
+  }
+  .hero-button {
+    padding: 8px 15px; 
+    font-size: 12px;
+    white-space: nowrap; 
   }
 
 }
