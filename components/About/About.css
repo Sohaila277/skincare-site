@@ -116,45 +116,52 @@ cursor:pointer;
     padding: 60px 5%;
   }
 }
-
 @media (max-width: 768px) {
   .about {
     flex-direction: column; 
-    gap: 50px;
+    gap: 40px; 
     text-align: center; 
-    padding: 50px 20px;
+    padding: 40px 20px;
   }
 
   .about-images {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
+   
+    margin-bottom: 20px; 
   }
 
   .main-img {
    
-    width: 80vw; 
+    width: 60vw; 
     height: auto; 
-    max-width: 350px;
-    border-radius: 150px; 
+    max-width: 260px; 
+    border-radius: 120px; 
   }
 
   .small-img {
-    width: 120px;
-    height: 120px;
-    bottom: -10px;
-    left: 10%; 
+   
+    width: 90px;
+    height: 90px;
+    bottom: -5px;
+   
+    left: 15%; 
+    border: 2px solid white; 
   }
 
   .about-text {
     max-width: 100%; 
+    padding: 0 10px;
   }
 
   .about-text h2 {
-    font-size: 28px; 
+    font-size: 24px; 
   }
 
   .about-text p {
-    font-size: 16px;
+    font-size: 15px;
+    line-height: 1.4;
   }
 }
